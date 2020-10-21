@@ -84,14 +84,25 @@ p {
     font-size: 20px;
 }
 
-.nav-item:hover {
-    background-color: rgb(70, 208, 199);
-    border-radius: 10px;
-    opacity: .9;
+.nav-item:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+	transition: width .5s ease, background-color .5s ease;
 }
-.nav-item:hover a {
+
+.nav-item:hover:after {
+    width: 100%;
+	background: rgb(6, 208, 171);
+}
+
+
+/* .nav-item:hover a {
     color: rgb(189, 50, 0);
-}
+} */
 
 /* end navigation */
 
@@ -288,3 +299,4 @@ p {
         margin-right: 10px;
      }
  }
+
