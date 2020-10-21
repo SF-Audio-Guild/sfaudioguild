@@ -101,9 +101,10 @@ p {
 
 .section-one {
     align-items: center;
+    justify-content: center;
     margin: auto;
-    margin-left: 5px;
-    margin-right: 5px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
 }
 
 .section-two {
@@ -210,10 +211,6 @@ p {
     border-radius: 10px;
 }
 
-.team-div {
-    margin-left: 5px;
-    margin-right: 5px;
-}
 
 /* footer */
 
@@ -283,4 +280,11 @@ p {
     .teamimg {
         width: 350px;
     }
+ }
+ 
+ @media screen and (max-width: 400px) {
+     .section-one {
+        margin-left: 10px;
+        margin-right: 10px;
+     }
  }
