@@ -60,6 +60,7 @@ h1 {
     padding: 10px;
     background-image: url("/sfaudioguild/assets/IMG_2773_edited.jpg");
     background-position: top;
+    background-attachment: fixed;
     box-shadow: 0px 3px 5px 2px rgb(69, 68, 68);
 }
 
