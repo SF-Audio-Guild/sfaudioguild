@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inknut Antiqua';
+    font-family: 'arial';
     background-color: rgb(252, 238, 229);
     color: rgb(85, 11, 58);
     margin: 0;
@@ -49,12 +49,12 @@ hr {
 
 h1 {
     margin: 10;
-    line-height: 150%;
+    /* line-height: 150%; */
     color: rgb(232, 122, 5);
     text-shadow: 2px 2px rgb(53, 26, 35);
 }
 
-p {
+/* p {
     margin:  0px;
 }
 
@@ -64,7 +64,7 @@ h2 {
 
 h3 {
     margin: 0;
-}
+} */
 
 
 .header {
@@ -212,7 +212,7 @@ h3 {
 .moreinfo-text {
     display: flex;
     flex-direction: column;
-    line-height: 200%;
+    /* line-height: 200%; */
     max-width: 400px;
 }
 
