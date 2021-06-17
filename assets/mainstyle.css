@@ -21,17 +21,18 @@ iframe {
 }
 
 a {
-    color: rgb(6, 208, 171);
+    color: rgb(47, 130, 255);
     text-decoration: none;
-    text-shadow: 1.5px 1.5px rgb(63, 63, 63);
+    text-shadow: 1px 1px rgb(214, 230, 113);
 }
 
 a:hover {
-    color: rgb(198, 61, 37);
+    color: rgb(155, 0, 216);
+    transition: .5s ease;
 }
 
 a:active {
-    color:rgb(198, 61, 37)
+    color:rgb(155, 0, 216))
 }
 
 .list {
