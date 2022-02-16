@@ -1,26 +1,3 @@
-// html head
-function Head(props) {
-  this.props = props
-  this.render = function() {
-    this.elem = document.getElementById(this.props.id)
-    var html = /*html*/ `
-      <meta charset="utf-8">
-      <title>SF Audio Guild</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="icon" href="/assets/sfag.png">
-      <link rel="stylesheet" href="/assets/theme.min.css">
-      <link rel="stylesheet" href="/assets/mainstyle.css">
-    `
-    this.elem.innerHTML = html
-  }
-
-  this.render()
-  return this
-}
-var head = new Head({
-  id: "head"
-})
-
 // header
 function Header(props) {
   this.props = props
