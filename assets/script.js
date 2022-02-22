@@ -25,7 +25,8 @@ function Navigation(props) {
     var html = /*html*/ `
       <div class="nav-item"><a href="/index.html">Home</a></div>
       <div class="nav-item"><a href="/downloads.html">Downloads</a></div>
-      <div class="nav-item"><a href="https://app.sfaudioguild.com/login">Portal</a></div>
+      <div class="nav-item"><a href="https://app.sfaudioguild.com/login">Contribute</a></div>
+      <div class="nav-item"><a href="https://www.pond5.com/artist/sfaudioguild">Store</a></div>
       <div class="nav-item"><a href="mailto:admin@sfaudioguild.com">Email Us!</a></div>
       <a href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA"><img class="youtubeicon" src="/assets/youtube_PNG21.png"></a>
       <a href="https://www.instagram.com/sfaudioguild"><img class="instaicon" src="/assets/instaiconzen.png"></a>
