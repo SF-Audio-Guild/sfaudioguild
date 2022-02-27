@@ -4,8 +4,11 @@ function Header(props) {
   this.render = function() {
     this.elem = document.getElementById(this.props.id)
     var html = /*html*/ `
-      <img class="sfag" src="/assets/sfag.png">
-      <h2 class="banner"><i>SFX, Sound Design and More!</i></h2>
+      <div class="d-flex align-items-center">
+        <img class="sfag" src="/assets/sfag.png">
+        <h2 class="banner"><i>SFX, Sound Design and More!</i></h2>
+      </div>
+      <a href="https://app.sfaudioguild.com/login"><button class="login-btn btn btn-warning">Log In</button></a>
     `
     this.elem.innerHTML = html
   }
@@ -25,11 +28,7 @@ function Navigation(props) {
     var html = /*html*/ `
       <div class="nav-item"><a href="/index.html">Home</a></div>
       <div class="nav-item"><a href="/downloads.html">Downloads</a></div>
-      <div class="nav-item"><a href="https://app.sfaudioguild.com/login">Contribute</a></div>
       <div class="nav-item"><a href="https://www.pond5.com/artist/sfaudioguild">Store</a></div>
-      <div class="nav-item"><a href="mailto:admin@sfaudioguild.com">Email Us!</a></div>
-      <a href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA"><img class="youtubeicon" src="/assets/youtube_PNG21.png"></a>
-      <a href="https://www.instagram.com/sfaudioguild"><img class="instaicon" src="/assets/instaiconzen.png"></a>
     `
     this.elem.innerHTML = html
   }
@@ -39,4 +38,29 @@ function Navigation(props) {
 }
 var header = new Navigation({
   id: "nav"
+})
+
+// footer
+function Footer(props) {
+  this.props = props
+  this.render = function() {
+    this.elem = document.getElementById(this.props.id)
+    var html = /*html*/ `
+      <p>Contact Us, or find us on social media!</p>
+      <a href="mailto:admin@sfaudioguild.com">admin@sfaudioguild.com</a>
+      <div class="d-flex align-items-center">
+        <a href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA"><img class="youtubeicon" src="/assets/youtube_PNG21.png"></a>
+        <a href="https://www.instagram.com/sfaudioguild"><img class="instaicon" src="/assets/instaiconzen.png"></a>
+      </div>
+      <br>
+      <small>2021 SF Audio Guild</small>
+    `
+    this.elem.innerHTML = html
+  }
+
+  this.render()
+  return this
+}
+var footer = new Footer({
+  id: "footer"
 })
