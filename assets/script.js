@@ -53,7 +53,7 @@ function Footer(props) {
         <a href="https://www.instagram.com/sfaudioguild"><img class="instaicon" src="/assets/instaiconzen.png"></a>
       </div>
       <br>
-      <small>2021 SF Audio Guild</small>
+      <small>©2022 SFAudioGuild</small>
     `
     this.elem.innerHTML = html
   }

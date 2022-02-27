@@ -19,9 +19,10 @@ p {
 a {
     text-decoration: none;
     font-weight: 600;
+    font-size: 1.1rem;
 }
 
-h2 {
+h1, h3 {
     font-weight: 600;
 }
 
@@ -70,25 +71,6 @@ hr {
     font-size: 20px;
 }
 
-.login-btn {
-    width: 100px;
-    box-shadow: 3px 3px 3px rgb(37, 37, 37);
-    margin-right: 20px;
-    text-shadow: #555 1px 1px;
-    font-weight: 600;
-}
-
-.login-btn:hover {
-    margin-bottom: 1px;
-    margin-right: 21px;
-    box-shadow: 5px 5px 5px rgb(37, 37, 37);
-    background-color: rgb(233, 48, 85);
-}
-
-.login-btn:active {
-    background-color: rgb(87, 0, 87);
-}
-
 /* navigation  */
 
 .nav {
@@ -123,12 +105,45 @@ hr {
 /* content */
 
 .advert-main {
-    margin: 10px;
-    padding: 10px;
-    min-width: 400px;
+    width: 50vw;
+    min-width: 600px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
+}
+
+.adbox {
+    min-width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#community {
+    background-image: url("/assets/community.png");
+    background-size: cover;
+}
+
+.login-btn {
+    min-width: 100px;
+    box-shadow: 3px 3px 8px rgb(37, 37, 37);
+    margin-right: 20px;
+    text-shadow: rgb(58, 58, 58) 1px 1px;
+    font-weight: 600;
+}
+
+.login-btn:hover {
+    margin-bottom: 1px;
+    margin-right: 21px;
+    box-shadow: 5px 5px 5px rgb(37, 37, 37);
+    background-color: rgb(233, 48, 85);
+}
+
+.login-btn:active {
+    background-color: rgb(87, 0, 87);
 }
 
 /* displaycase */
