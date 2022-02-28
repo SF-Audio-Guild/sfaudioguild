@@ -106,15 +106,16 @@ hr {
 
 .advert-main {
     width: 50vw;
-    min-width: 600px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 600px;
     background-color: white;
 }
 
 .adbox {
-    min-width: 100%;
     min-height: 400px;
     display: flex;
     flex-direction: column;
@@ -125,6 +126,13 @@ hr {
 #community {
     background-image: url("/assets/community.png");
     background-size: cover;
+}
+
+.pack-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 5px;
 }
 
 .login-btn {
