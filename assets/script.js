@@ -6,7 +6,7 @@ function Header(props) {
     var html = /*html*/ `
       <div class="d-flex align-items-center">
         <img class="sfag" src="/assets/sfag.png">
-        <h2 class="banner"><i>Social Sound Design!</i></h2>
+        <h2 class="banner"><i>SFX & Community Library!</i></h2>
       </div>
       <a href="https://app.sfaudioguild.com/login"><button class="main-btn btn btn-warning">Log In</button></a>
     `

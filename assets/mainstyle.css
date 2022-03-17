@@ -58,6 +58,7 @@ h1, h3 {
 .banner {
     padding: 10px;
     font-size: 20px;
+    font-weight: 500;
 }
 
 /* navigation  */
