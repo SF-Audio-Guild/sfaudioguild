@@ -1,8 +1,14 @@
+:root {
+    --text-color: rgb(63, 55, 114);
+    --background-blue: rgb(245, 249, 255);
+    --strong-blue: rgb(0, 119, 255);
+}
+
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(63, 55, 114);
+    color: var(--text-color);
 }
 
 iframe {
@@ -19,29 +25,12 @@ p {
 a {
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 h1, h3 {
     font-weight: 600;
 }
-
-hr {
-    background-color: lightslategray;
-}
-
-/* .list {
-    list-style-type: none;
-    font-size: 25px;
-    color: rgb(208, 78, 119);
-    text-shadow: 1px 1px rgb(120, 55, 3);
-    padding-left: 20px;
-} */
-
-/* .list-div {
-    display: flex;
-    flex-direction: column;
-} */
 
 /* header */
 
@@ -74,7 +63,7 @@ hr {
 /* navigation  */
 
 .nav {
-    background-color: rgb(245, 249, 255);
+    background-color: var(--background-blue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +88,7 @@ hr {
 
 .nav-item:hover:after {
     width: 100%;
-	background: rgb(0, 119, 255);
+	background: var(--strong-blue);
 }
 
 /* content */
@@ -112,7 +101,6 @@ hr {
     align-items: center;
     justify-content: center;
     height: 600px;
-    background-color: white;
 }
 
 .adbox {
@@ -135,7 +123,11 @@ hr {
     margin: 5px;
 }
 
-.login-btn {
+/* main button...
+    also check bootstrapped styles in html
+*/
+
+.main-btn {
     min-width: 100px;
     box-shadow: 3px 3px 8px rgb(37, 37, 37);
     margin-right: 20px;
@@ -143,14 +135,14 @@ hr {
     font-weight: 600;
 }
 
-.login-btn:hover {
+.main-btn:hover {
     margin-bottom: 1px;
     margin-right: 21px;
     box-shadow: 5px 5px 5px rgb(37, 37, 37);
     background-color: rgb(233, 48, 85);
 }
 
-.login-btn:active {
+.main-btn:active {
     background-color: rgb(87, 0, 87);
 }
 
@@ -254,12 +246,14 @@ hr {
     height: auto;
     padding-top: 10px;
     padding-bottom: 0px;
-    background-color: rgb(245, 249, 255);
+    background-color: var(--background-blue);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+/* icons */
 
 .instaicon {
     width: 50px;

@@ -8,7 +8,7 @@ function Header(props) {
         <img class="sfag" src="/assets/sfag.png">
         <h2 class="banner"><i>Social Sound Design!</i></h2>
       </div>
-      <a href="https://app.sfaudioguild.com/login"><button class="login-btn btn btn-warning">Log In</button></a>
+      <a href="https://app.sfaudioguild.com/login"><button class="main-btn btn btn-warning">Log In</button></a>
     `
     this.elem.innerHTML = html
   }
