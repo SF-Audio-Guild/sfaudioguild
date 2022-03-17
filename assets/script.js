@@ -28,7 +28,7 @@ function Navigation(props) {
     var html = /*html*/ `
       <div class="nav-item"><a href="/index.html">Home</a></div>
       <div class="nav-item"><a href="/downloads.html">Downloads</a></div>
-      <div class="nav-item"><a href="https://www.pond5.com/artist/sfaudioguild">Store</a></div>
+      <div class="nav-item"><a href="/stores.html">Stores</a></div>
     `
     this.elem.innerHTML = html
   }
