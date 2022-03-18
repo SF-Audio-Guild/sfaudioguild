@@ -8,7 +8,7 @@ function Header(props) {
         <img class="sfag" src="/assets/sfag.png">
         <h2 class="banner"><i>SFX & Community Library!</i></h2>
       </div>
-      <a href="https://app.sfaudioguild.com/login"><button class="main-btn btn btn-warning">Log In</button></a>
+      <a href="https://app.sfaudioguild.com/login" target="_blank" rel="noopener noreferrer"><button class="main-btn btn btn-warning">Log In</button></a>
     `
     this.elem.innerHTML = html
   }
@@ -49,8 +49,8 @@ function Footer(props) {
       <p>Contact Us, or find us on social media!</p>
       <a href="mailto:admin@sfaudioguild.com">admin@sfaudioguild.com</a>
       <div class="d-flex align-items-center">
-        <a href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA"><img class="youtubeicon" src="/assets/youtube_PNG21.png"></a>
-        <a href="https://www.instagram.com/sfaudioguild"><img class="instaicon" src="/assets/instaiconzen.png"></a>
+        <a href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA" target="_blank" rel="noopener noreferrer"><img class="youtubeicon" src="/assets/youtube_PNG21.png"></a>
+        <a href="https://www.instagram.com/sfaudioguild" target="_blank" rel="noopener noreferrer"><img class="instaicon" src="/assets/instaiconzen.png"></a>
       </div>
       <br>
       <small>©2022 SFAudioGuild</small>
