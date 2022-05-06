@@ -53,6 +53,9 @@ function Footer(props) {
         <a href="https://www.instagram.com/sfaudioguild" target="_blank" rel="noopener noreferrer"><img class="instaicon" src="/assets/instaiconzen.png"></a>
       </div>
       <br>
+      <div>
+        <a href="/tos.html"><small>Terms of Use</small></a>
+      </div>
       <small>©2022 SFAudioGuild</small>
     `
     this.elem.innerHTML = html

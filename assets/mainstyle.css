@@ -28,8 +28,22 @@ a {
     font-size: 1.3rem;
 }
 
+a small {
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.adbox a {
+    text-decoration: underline;
+}
+
 h1, h3 {
     font-weight: 600;
+}
+
+iframe {
+    width: 100%;
+    border: 1px solid black;
 }
 
 /* header */
