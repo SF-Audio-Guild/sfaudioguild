@@ -4,6 +4,12 @@
     --strong-blue: rgb(0, 119, 255);
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
     display: flex;
@@ -92,11 +98,13 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 40px;
 }
 
 .nav-item {
     width: auto;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 15px;
     border-bottom: 3px solid transparent;
 }
