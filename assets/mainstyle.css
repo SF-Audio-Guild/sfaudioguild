@@ -11,15 +11,17 @@
 }
 
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     color: var(--text-color);
     overscroll-behavior: none;
-    background-image: url("/assets/IMG_2773_edited.jpg");
-    background-position: top;
+    background-color: rgb(204, 231, 255);
+    /* background-image: url("/assets/IMG_2773_edited.jpg"); */
+    /* background-position: top;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 iframe {
