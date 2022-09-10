@@ -1,0 +1,39 @@
+---
+title: 'SF Audio Guild | Home'
+---
+
+{% extends "layouts/base.html" %} 
+{% block content %}
+<div>
+  <div class="d-flex flex-row justify-content-center flex-wrap">
+    <div class="advert-main">
+      <div class="adbox">
+        <h1>Buy Products</h1>
+        <div class="d-flex flex-column align-items-center">
+          <h2 class="text-center" style="max-width: 600px">Find the audio you need to complete your next project!</h2>
+          <a href="/stores">Visit our online stores</a>
+          <br>
+          <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+            <img class="pack-img" src="/assets/ancientweaponspackcolor.webp">
+            <img class="pack-img" src="/assets/anienctmagicpackcolor.webp">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="advert-main">
+      <div class="adbox">
+        <h1>Join Us!</h1>
+        <div class="d-flex flex-column align-items-center">
+          <h2 class="text-center" style="max-width: 600px">Trade sound for sound by participating in our community library!</h2>
+          <a href="/learn">Learn More...</a>
+        </div>
+        <br>
+        <a href="/assets/library_screen.png" target="_blank" rel="noopener noreferrer"><img class="screen-shot" src="/assets/library_screen.png"></a>
+        <br>
+        <a href="https://app.sfaudioguild.com/register" target="_blank" rel="noopener noreferrer"><button class="main-btn btn btn-warning"><h3 class="p-2">Register</h3></button></a>
+      </div>
+    </div>
+  </div>
+  <!-- <iframe class="homepagevideo" src="https://www.youtube.com/embed/videoseries?list=PLVlHx-vW7Gy8FOBlUSrJpuyzy7qe6u_Bd" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+</div>
+{% endblock %}
