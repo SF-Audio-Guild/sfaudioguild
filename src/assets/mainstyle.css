@@ -70,7 +70,7 @@ iframe {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     /* background-image: url("/assets/IMG_2773_edited.jpg");
     background-position: top;
     background-attachment: fixed; */
@@ -79,7 +79,7 @@ iframe {
 .sfag {
     display: flex;
     justify-content: left;
-    width: 9vw;
+    width: 6vw;
     min-width: 60px;
     max-width: 110px;
     height: auto;
