@@ -79,9 +79,7 @@ iframe {
 .sfag {
     display: flex;
     justify-content: left;
-    width: 6vw;
-    min-width: 60px;
-    max-width: 110px;
+    width: 70px;
     height: auto;
     padding-right: 10px;
 }
@@ -140,7 +138,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 700px;
+    height: 400px;
 }
 
 .advert-secondary {
