@@ -129,6 +129,7 @@ main {
     background-color: white;
     opacity: 0.92;
     flex: 1;
+    height: auto;
 }
 
 .advert-main {
@@ -138,7 +139,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .advert-secondary {
