@@ -2,72 +2,98 @@
 <html>
   <head id="head">
     <title>SF Audio Guild | Downloads</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="/assets/sfag.png">
-    <link rel="stylesheet" href="/assets/theme.min.css">
-    <link rel="stylesheet" href="/assets/mainstyle.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="SFX for Games and Visual Media" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SF Audio Guild | Downloads" />
+    <meta property="og:description" content="SFX for Games and Visual Media" />
+    <meta property="og:url" content="https://sfaudioguild.com" />
+    <meta property="og:site_name" content="SF Audio Guild | Downloads" />
+    <link rel="icon" href="/assets/guild_logo_2024_434px.png" />
+    <link rel="stylesheet" href="/assets/style.css" />
+
     <script src="/assets/script.js" defer></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-174468991-1"></script>
+    <script
+      defer
+      src="https://www.googletagmanager.com/gtag/js?id=UA-174468991-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-174468991-1');
+      gtag("config", "UA-174468991-1");
     </script>
-  </head> 
+  </head>
   <body>
-    <header class="header" id="header">
-      <div class="d-flex align-items-center">
-        <img class="sfag" src="/assets/sfag.png">
-        <h2 class="banner"><i>SFX for Games and Visual Media</i></h2>
-      </div>
-      <!-- <a href="https://app.sfaudioguild.com/login" target="_blank" rel="noopener noreferrer"><button class="main-btn btn btn-warning">Log In</button></a> -->
-    </header>
-      <main class="d-flex flex-column">
-        <div class="nav" id="nav">
-          <div class="nav-item"><a href="/">Home</a></div>
-          <div class="nav-item"><a href="/downloads">Downloads</a></div>
-          <div class="nav-item"><a href="/stores">Stores</a></div>
-        </div>
-        
-        
-<div class="nav" id="nav"></div>
-<div class="container d-flex flex-column align-items-center ">
-    <h1>Free Demo Packs</h1>
-    <hr />
-    <div class="d-flex align-items-center justify-content-center flex-wrap">
-        <div class="img-div">
-            <img class="display-item" src="/assets/magicpackfree.jpg">
-            <a href="/magicpackfree"><button class="di-btn">More Info</button></a>
-        </div>
-        <div class="img-div">
-            <img class="display-item" src="/assets/weaponpackfree.jpg">
-            <a href="/weaponpackfree"><button class="di-btn">More Info</button></a>
-        </div>
-        
-    </div>
-</div>
+    <div class="container">
+      <div id="mobile-menu"></div>
 
-        
+      <header class="header" id="header">
+        <div style="display: flex; align-items: center">
+          <a href="/"
+            ><img class="sfag" src="/assets/guild_logo_2024_434px.png"
+          /></a>
+          <h2 class="banner"><i>SFX for Games and Visual Media</i></h2>
+        </div>
+        <!-- Nav -->
+        <!-- web nav -->
+        <div class="web-nav">
+          <a href="/downloads" class="web-nav-item">Downloads</a>
+          <a href="/stores" class="web-nav-item">Stores</a>
+        </div>
+        <!-- mobile nav -->
+        <img id="hamburger" class="mobile-nav" src="/assets/hamburger.svg" />
+      </header>
+      <main>
+        <h2>Free Demo Packs</h2>
+        <br>
+        <p>Here you can find free downloads of our sample packs to wet your taste buds. If you like what you hear and are interested in more, you can find our full packs for sale online from the <a href="/stores">Stores</a> page.</p>
+        <br>
+        <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
+          <div class="img-div">
+            <img class="display-item" src="/assets/magicpackfree.jpg" />
+            <a href="/magicpackfree"><button class="di-btn">More Info</button></a>
+          </div>
+          <div class="img-div">
+            <img class="display-item" src="/assets/weaponpackfree.jpg" />
+            <a href="/weaponpackfree"
+              ><button class="di-btn">More Info</button></a
+            >
+          </div>
+        </div>
       </main>
       <footer id="footer">
-        <p>Contact Us, or find us on social media!</p>
+        <p>Contact us, or find us on social media!</p>
         <a href="mailto:admin@sfaudioguild.com">admin@sfaudioguild.com</a>
-        <div class="d-flex align-items-center">
-          <a href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA" target="_blank" rel="noopener noreferrer"><img class="youtubeicon" src="/assets/youtube_PNG21.png"></a>
-          <a href="https://www.instagram.com/sfaudioguild" target="_blank" rel="noopener noreferrer"><img class="instaicon" src="/assets/instaiconzen.png"></a>
+        <div>
+          <a
+            href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img class="youtubeicon" src="/assets/youtube_PNG21.png"
+          /></a>
+          <a
+            href="https://www.instagram.com/sfaudioguild"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img class="instaicon" src="/assets/instaiconzen.png"
+          /></a>
         </div>
-        <br>
+        <br />
         <div>
           <a href="/tos"><small>Terms of Use</small></a>
           <a href="/privacy-policy"><small>Privacy Policy</small></a>
         </div>
-        <small>©2022 SFAudioGuild</small>
+        <br />
+        <small style="color: gray">©2024 SFAudioGuild</small>
       </footer>
+    </div>
   </body>
   <script src="/assets/script.js"></script>
 </html>

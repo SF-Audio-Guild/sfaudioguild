@@ -1,0 +1,316 @@
+:root {
+    --text-color: rgb(234, 233, 243);
+    --background-black: #101219;
+    --background-gray: #19212b;
+    --main-blue: rgb(60, 116, 179);
+    --light-blue: rgb(130, 184, 246);
+    --main-red: #ffb9c0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-black);
+    font-family: sans-serif;
+    overscroll-behavior: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    color: var(--light-blue);
+}
+
+a:hover {
+    color: var(--main-blue);
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    max-width: 600px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVIGATION */
+
+.web-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-nav-item {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px
+}
+
+.mobile-nav {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    display: none;
+    filter: invert(90%);
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    .web-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: inherit;
+    }
+
+}
+
+.sidebar {
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    background: transparent;
+    overflow: hidden;
+}
+
+.sidebar-items {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    background-color: var(--background-black);
+    transform: translate(200px, 0px);
+    transition: 0.3s all ease-out;
+}
+
+.sidebar-items-item {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* END NAVIGATION */
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--background-black);
+}
+
+.sfag {
+    display: flex;
+    justify-content: left;
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+}
+
+.banner {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* content */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-gray);
+    padding: 40px 10px;
+    height: 100%
+}
+
+.pack-img {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    margin: 5px;
+}
+
+.store-img {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    margin: 5px;
+}
+
+/* displaycase */
+
+.display-item {
+    width: 100%;
+    max-width: 300px;
+    /* border-radius: 20px; */
+}
+
+.img-div {
+    position: relative;
+    display: inline-block;
+    padding: 10px
+}
+
+.img-div .di-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: #555 1px 1px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 5px; */
+}
+
+.img-div .di-btn:hover {
+    background-color: var(--main-blue);
+}
+
+.img-div:hover .di-btn {
+    display: block;
+}
+
+.di-btn:active {
+    border: none;
+    outline: none;
+}
+
+/* more info */
+
+.moreinfo-item {
+    width: 100%;
+    max-width: 300px;
+    /* border-radius: 20px; */
+}
+
+.moreinfo-text {
+    max-width: 600px;
+}
+
+.moreinfo-imgdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.moreinfo-imgdiv .di-btn {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: #555 1px 1px;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    width: 200px;
+    box-shadow: 3px 3px 3px rgb(37, 37, 37);
+
+}
+
+.moreinfo-imgdiv .di-btn:hover {
+    background-color: var(--main-blue);
+    margin-bottom: 1px;
+    margin-right: 1px;
+    box-shadow: 5px 5px 5px rgb(37, 37, 37);
+}
+
+.moreinfo-imgdiv .di-btn:active {
+    background-color: rgb(255, 102, 0);
+    margin-bottom: -2px;
+    margin-right: -2px;
+    box-shadow: 0px 0px 0px rgb(37, 37, 37);
+}
+
+/* footer */
+
+#footer {
+    background-color: var(--background-black);
+    padding: 10px;
+    margin-top: auto;
+    /* trick to make footer stay at bottom... needs body to have flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* icons */
+
+.instaicon {
+    width: 50px;
+    padding-left: 10px;
+}
+
+.instaicon:hover {
+    opacity: 0.7;
+}
+
+.youtubeicon {
+    width: 60px;
+    padding-left: 15px;
+}
+
+.youtubeicon:hover {
+    opacity: 0.7;
+
+}
+
+.video-wrapper {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-wrapper iframe {
+    width: 300px;
+    height: 250px;
+    max-width: 100%;
+}
