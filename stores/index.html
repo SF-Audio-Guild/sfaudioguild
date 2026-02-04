@@ -1,105 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head id="head">
-    <title>SF Audio Guild | Stores</title>
+    <title>SF Audio Guild | Online Stores</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="SFX for Games and Visual Media" />
+    <meta name="description" content="Purchase professional SFX packs and audio assets from Unity Asset Store and Pond5." />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="SF Audio Guild | Stores" />
-    <meta property="og:description" content="SFX for Games and Visual Media" />
-    <meta property="og:url" content="https://sfaudioguild.com" />
-    <meta property="og:site_name" content="SF Audio Guild | Stores" />
+    <meta property="og:title" content="SF Audio Guild | Online Stores" />
+    <meta property="og:description" content="Purchase professional SFX packs and audio assets from Unity Asset Store and Pond5." />
+    <meta property="og:url" content="https://sfaudioguild.com/stores" />
+    <meta property="og:site_name" content="SF Audio Guild" />
     <link rel="icon" href="/assets/guild_logo_2024_434px.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/style.css" />
 
     <script src="/assets/script.js" defer></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      defer
-      src="https://www.googletagmanager.com/gtag/js?id=UA-174468991-1"
-    ></script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-174468991-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-174468991-1");
     </script>
   </head>
   <body>
     <div class="container">
-      <div id="mobile-menu"></div>
-
       <header class="header" id="header">
-        <div style="display: flex; align-items: center">
-          <a href="/"><img class="sfag" src="/assets/guild_logo_2024_434px.png" /></a>
-          <h2 class="banner"><i>SFX for Games and Visual Media</i></h2>
+        <div>
+          <a href="/"><img class="sfag" src="/assets/guild_logo_2024_434px.png" alt="SF Audio Guild" /></a>
+          <span class="banner">SFX for Games and Visual Media</span>
         </div>
-        <!-- Nav -->
-        <!-- web nav -->
-        <div class="web-nav">
+        <nav class="web-nav">
           <a href="/downloads" class="web-nav-item">Downloads</a>
           <a href="/stores" class="web-nav-item">Stores</a>
-        </div>
-        <!-- mobile nav -->
-        <img id="hamburger" class="mobile-nav" src="/assets/hamburger.svg" />
+        </nav>
       </header>
+
       <main>
-        <!-- content -->
-        <h2>
-          Unity Asset Store has our packs designed specifically for your unity
-          game
-        </h2>
-        <img class="store-img" src="/assets/unity.webp" alt="" />
+        <h2>Unity Asset Store</h2>
+        <p>Complete SFX packs designed specifically for your Unity game projects.</p>
+        <img class="store-img" src="/assets/unity.webp" alt="Unity Asset Store" />
         <a
           href="https://prf.hn/click/camref:1101loUeo/[p_id:1100l445483]/destination:https%3A%2F%2Fassetstore.unity.com%2Fpublishers%2F48525"
           target="_blank"
           rel="noopener noreferrer"
-          >Visit Unity</a
-        >
-        <br>
-        <h2>
-          Pond5 has our individual tracks available for purchase for use on any
-          project
-        </h2>
-        <img class="store-img" src="/assets/pond5-logo-blue-1.png.crdownload" />
+        >Visit Unity Asset Store</a>
+
+        <h2>Pond5</h2>
+        <p>Individual tracks available for purchase, usable in any project.</p>
+        <img class="store-img" src="/assets/pond5-logo-blue-1.png.crdownload" alt="Pond5" />
         <a
           href="https://www.pond5.com/artist/sfaudioguild"
           target="_blank"
           rel="noopener noreferrer"
-          >Visit Pond5</a
-        >
+        >Visit Pond5</a>
       </main>
+
       <footer id="footer">
-        <p>Contact us, or find us on social media!</p>
+        <p>Contact us or find us on social media</p>
         <a href="mailto:admin@sfaudioguild.com">admin@sfaudioguild.com</a>
         <div>
-          <a
-            href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img class="youtubeicon" src="/assets/youtube_PNG21.png"
-          /></a>
-          <a
-            href="https://www.instagram.com/sfaudioguild"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img class="instaicon" src="/assets/instaiconzen.png"
-          /></a>
+          <a href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <img class="youtubeicon" src="/assets/youtube_PNG21.png" alt="YouTube" />
+          </a>
+          <a href="https://www.instagram.com/sfaudioguild" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img class="instaicon" src="/assets/instaiconzen.png" alt="Instagram" />
+          </a>
         </div>
-        <br />
         <div>
           <a href="/tos"><small>Terms of Use</small></a>
           <a href="/privacy-policy"><small>Privacy Policy</small></a>
         </div>
-        <br />
-        <small style="color: gray">©2024 SFAudioGuild</small>
+        <small>© 2025 SF Audio Guild</small>
       </footer>
     </div>
   </body>
-  <script src="/assets/script.js"></script>
 </html>

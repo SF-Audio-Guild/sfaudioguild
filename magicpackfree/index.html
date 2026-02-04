@@ -1,82 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head id="head">
-    <title>SF Audio Guild | Magic Pack Free</title>
+    <title>SF Audio Guild | Ancient Magic Pack Demo</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="SFX for Games and Visual Media" />
+    <meta name="description" content="Download the free Ancient Magic Pack demo - magical sound effects for games and visual media." />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="SF Audio Guild | Magic Pack Free" />
-    <meta property="og:description" content="SFX for Games and Visual Media" />
-    <meta property="og:url" content="https://sfaudioguild.com" />
-    <meta property="og:site_name" content="SF Audio Guild | Magic Pack Free" />
+    <meta property="og:title" content="SF Audio Guild | Ancient Magic Pack Demo" />
+    <meta property="og:description" content="Download the free Ancient Magic Pack demo - magical sound effects for games and visual media." />
+    <meta property="og:url" content="https://sfaudioguild.com/magicpackfree" />
+    <meta property="og:site_name" content="SF Audio Guild" />
     <link rel="icon" href="/assets/guild_logo_2024_434px.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/style.css" />
 
     <script src="/assets/script.js" defer></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      defer
-      src="https://www.googletagmanager.com/gtag/js?id=UA-174468991-1"
-    ></script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-174468991-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-174468991-1");
     </script>
   </head>
   <body>
     <div class="container">
-      <div id="mobile-menu"></div>
-
       <header class="header" id="header">
-        <div style="display: flex; align-items: center">
-          <a href="/"
-            ><img class="sfag" src="/assets/guild_logo_2024_434px.png"
-          /></a>
-          <h2 class="banner"><i>SFX for Games and Visual Media</i></h2>
+        <div>
+          <a href="/"><img class="sfag" src="/assets/guild_logo_2024_434px.png" alt="SF Audio Guild" /></a>
+          <span class="banner">SFX for Games and Visual Media</span>
         </div>
-        <!-- Nav -->
-        <!-- web nav -->
-        <div class="web-nav">
+        <nav class="web-nav">
           <a href="/downloads" class="web-nav-item">Downloads</a>
           <a href="/stores" class="web-nav-item">Stores</a>
-        </div>
-        <!-- mobile nav -->
-        <img id="hamburger" class="mobile-nav" src="/assets/hamburger.svg" />
+        </nav>
       </header>
+
       <main>
-        <h2>Ancient Magic Pack (Demo)</h2>
-        <br />
-        <div style="display: flex; flex-wrap: wrap">
+        <h2>Ancient Magic Pack</h2>
+        <h4>Free Demo</h4>
+
+        <div class="flex-row">
           <div class="moreinfo-imgdiv">
-            <img class="moreinfo-item" src="/assets/magicpackfree.jpg" />
-            <br />
+            <img class="moreinfo-item" src="/assets/magicpackfree.jpg" alt="Ancient Magic Pack" />
             <button
               class="di-btn"
               onclick="downloadPrompt('/assets/AMP_Demo_SF_Audio_Guild.zip')"
             >
-              Download Now
+              <span>Download Now</span>
             </button>
           </div>
-          <br />
-          <p>
-            Creative and unique magic sound effects recorded and produced by our
-            own in house Arch-Mage Audio Wizards. Everything from elemental
-            blasts to heals and loopable buffs/debufs. Use this small DEMO pack
-            to take care of the basics and get a taste for out style. Check out
-            the FULL Ancient Magic Pack to fill out the rest of your large
-            projects
-          </p>
+
+          <div class="moreinfo-text">
+            <p>
+              Creative and unique magic sound effects recorded and produced by our
+              own in-house Arch-Mage Audio Wizards. Everything from elemental
+              blasts to heals and loopable buffs/debuffs.
+            </p>
+            <p>
+              Use this demo pack to take care of the basics and get a taste for our style.
+              Check out the full Ancient Magic Pack to fill out the rest of your larger projects.
+            </p>
+          </div>
         </div>
-        <br />
-        <p>Demo Video</p>
-        <br />
+
+        <h3>Demo Video</h3>
         <div class="video-wrapper">
           <iframe
             src="https://www.youtube.com/embed/dBPSmhcLOBA"
@@ -86,32 +80,24 @@
           ></iframe>
         </div>
       </main>
+
       <footer id="footer">
-        <p>Contact us, or find us on social media!</p>
+        <p>Contact us or find us on social media</p>
         <a href="mailto:admin@sfaudioguild.com">admin@sfaudioguild.com</a>
         <div>
-          <a
-            href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img class="youtubeicon" src="/assets/youtube_PNG21.png"
-          /></a>
-          <a
-            href="https://www.instagram.com/sfaudioguild"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img class="instaicon" src="/assets/instaiconzen.png"
-          /></a>
+          <a href="https://www.youtube.com/channel/UC-Dz7rJh7eer2HbHWdFCgHA" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <img class="youtubeicon" src="/assets/youtube_PNG21.png" alt="YouTube" />
+          </a>
+          <a href="https://www.instagram.com/sfaudioguild" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img class="instaicon" src="/assets/instaiconzen.png" alt="Instagram" />
+          </a>
         </div>
-        <br />
         <div>
           <a href="/tos"><small>Terms of Use</small></a>
           <a href="/privacy-policy"><small>Privacy Policy</small></a>
         </div>
-        <br />
-        <small style="color: gray">©2024 SFAudioGuild</small>
+        <small>© 2025 SF Audio Guild</small>
       </footer>
     </div>
   </body>
-  <script src="/assets/script.js"></script>
 </html>
